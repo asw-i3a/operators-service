@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
-public class GetAgentsController {
+public class GetOperatorsController {
 
     @Autowired
     private OperatorsService service;
