@@ -19,13 +19,13 @@ public class GetOperatorsController {
     private OperatorsService service;
 
     @RequestMapping(value = "/operators")
-    public List<Operator> getAllAgents() {
+    public List<Operator> getAllOperators() {
 	log.info("Getting all operators list");
 	return service.findAll();
     }
 
     @RequestMapping(value = "/operators/{id}")
-    public Operator getAgentByDBId(@PathVariable("id") String id) {
+    public Operator getOperatorByDBId(@PathVariable("id") String id) {
 	log.info("Getting information for: " + id);
 	return service.findById(id);
     }
