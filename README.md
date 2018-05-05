@@ -2,7 +2,7 @@
 
 | | **Status** |
 |---|:----|
-| **ci** | -
+| **circleCI** |[![CircleCI](https://circleci.com/gh/asw-i3a/operators-service/tree/master.svg?style=svg)](https://circleci.com/gh/asw-i3a/operators-service/tree/master)
 | **code coverage** | -
 | **code quality** |-
 | **latest build** |[![Docker Badge](https://img.shields.io/badge/docker%20image-latest-blue.svg)](https://hub.docker.com/r/incisystem/operators_service/)
