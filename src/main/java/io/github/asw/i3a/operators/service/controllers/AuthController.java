@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 public class AuthController {
 
 	@Autowired
-	OperatorsService service;
+	private OperatorsService service;
 
 	@RequestMapping(value = "/auth", method = RequestMethod.POST, consumes = {
 			MediaType.APPLICATION_JSON_VALUE }, produces = MediaType.APPLICATION_JSON_VALUE)

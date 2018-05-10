@@ -14,13 +14,13 @@ import io.github.asw.i3a.operators.service.types.Operator;
 
 @SpringBootTest(classes = { Service.class })
 @RunWith(SpringJUnit4ClassRunner.class)
-public class insertOne {
+public class InsertOne {
 
 	@Autowired
-	OperatorsRepository repo;
+	private OperatorsRepository repo;
 
 	@Autowired
-	OperatorsService serv;
+	private OperatorsService serv;
 
 	public void testA() {
 		Operator o = new Operator();
