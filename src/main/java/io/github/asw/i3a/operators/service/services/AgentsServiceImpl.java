@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 public class AgentsServiceImpl implements OperatorsService {
 
 	@Autowired
-	OperatorsRepository repository;
+	private OperatorsRepository repository;
 
 	@Override
 	public String auth( String email, String plainPassword ) {
